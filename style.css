@@ -136,14 +136,14 @@ body{
             width: 200%;
         }
     }
-    @media (min-width: 340px){
+    @media (max-width: 340px){
         .paralax img#sun{
-            width: 190%;
+            width: 200%;
         }
     }
-    @media (min-width: 356px){
+    @media (min-width: 341px){
         .paralax img#sun{
-            width: 180%;
+            width: 185%;
         }
     }
         
@@ -174,21 +174,21 @@ body{
 /* sun 3 */
 @media (min-width: 413px){
      .paralax img#sun{
-        width: 150%;
+        width: 155%;
      }
 }
-@media (min-width: 454px){
+@media (min-width: 437px){
     .paralax img#sun{
-       width: 138%;
+       width: 145%;
     }
 }
-@media (min-width: 492px){
+@media (min-width: 468px){
     .paralax img#sun{
-       width: 130%;
+       width: 135%;
     }
 }
 
-@media (min-width: 509px) {
+@media (min-width: 503px) {
     .paralax{
         width: 200%;
     }
