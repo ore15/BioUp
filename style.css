@@ -82,7 +82,7 @@ body{
 .paralax img#sun{
     top: 10%;
     left: 0;
-    z-index: -1;
+    /* z-index: -1; */
 }
 #text2{
     position: absolute;
@@ -125,13 +125,13 @@ body{
     
     
     /* sun */
-    @media (max-width: 320px){
+    @media (max-width: 341px){
         .paralax img#sun{
-            width: 210%;
+            width: 200%;
         }
     }
     /* sun 2 */
-    @media (min-width: 321px){
+    @media (min-width: 341px){
         .paralax img#sun{
             width: 200%;
         }
