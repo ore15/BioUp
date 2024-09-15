@@ -138,12 +138,12 @@ body{
     }
     @media (max-width: 340px){
         .paralax img#sun{
-            width: 200%;
+            width: fit-content;
         }
     }
     @media (min-width: 341px){
         .paralax img#sun{
-            width: 185%;
+            width: fit-content;
         }
     }
         
